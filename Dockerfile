@@ -1,5 +1,5 @@
-FROM ubuntu:24.04
-LABEL maintainer="Jeff Geerling"
+FROM linuxmintd/mint22-amd64:latest
+LABEL maintainer="Fabian Konrad"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
